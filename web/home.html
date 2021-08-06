@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+<script>
+	function getOption() {
+		var obj = document.getElementById("mySelect");
+		document.getElementById("demo").innerHTML = obj.options[obj.selectedIndex].text;
+	}
+	</script>
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+		<h1>Welcome to this little website.</h1>
+		<p>Hello World</p>
+		<h2>Welcome to Rubber Trump</h2>
+
+		<p>My fellow ducks, welcome to Rubber Trump. First of all I'd like to say that this website is great. One of the best there is. Cannot believe it. Did I say that this website is great? Absolutely incredible, ducktastic.</p>
+	
+		</p> Make Rubber Ducks Great Again!</p>
+
+		<img onmouseover='getAlert(this)' class='calPicSmile' src='http://assets.stickpng.com/images/5c0560e977e79003db621e7d.png' height='200' width='200'>
+
+		<ul>
+			<li>Amazing</li>
+			<li>Talented</li>
+			<li>Athletic</li>
+
+		</ul>
+
+		<h2>Contact Us</h2>
+		
+		
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+
+			How did you hear about our website?
+			<div>
+				<input type="checkbox" id="Google" name="Google"
+					   checked>
+				<label for="Google">Google</label>
+			  </div>
+			  
+			  <div>
+				<input type="checkbox" id="A Friend" name="A Friend">
+				<label for="A Friend">A Friend</label>
+			  </div>
+			  <div>
+				<input type="checkbox" id="Other" name="Other">
+				<label for="Other">Other</label>
+			  </div>
+			  
+			<input type="submit">
+
+			</form>
+					  
+	<script src="about.js">
+	</script>
+</body>
+
+</html>

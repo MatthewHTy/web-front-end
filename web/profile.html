@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+<script>
+	function getOption() {
+		var obj = document.getElementById("mySelect");
+		document.getElementById("demo").innerHTML = obj.options[obj.selectedIndex].text;
+	}
+	</script>
+
+<style>
+
+
+
+</style>
+
+</head>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+    <h1> Matthew Ty </h1>
+
+    <button id="color">My Favorite Color</button>
+
+    <button id="place">My Favorite Place</button>
+    <button id="ritual">My Favorite Ritual</button>
+
+
+    <h5>Full Name: Matthew Louis Hernandez Ty</h5>
+
+    
+<div> Hello! My name is Matthew and you can call me Matt! I'm currently at Devmountain working on my skills to become a full-time web developer! I graduated from Utah Valley University with a B.S in Business Management with a minor in Marketing.</div>
+
+<h5>Interests</h5>
+<div>
+    My interests include:
+    </div>
+   <ul>
+
+    <li>Basketball</li>
+    <li>Water Sports (Jet Ski!)</li>
+    <li>Hanging Out</li>
+    <li>Late Night Game Nights</li>
+    <li>Coding</li>
+ </ul>
+
+<h5>Skills</h5>
+
+<div>Skills:
+</div>
+<ul>
+    <li>Time Management</li>
+    <li>Team Player</li>
+    <li>Reliable</li>
+</ul>
+
+<form id="contact">
+    Contact me!
+    <form action="/action_page.php">
+        <label for="phone">Enter a phone number:</label><br><br>
+        <input type="tel" id="phone" name="phone" placeholder="123-45-678"
+        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+        <input type="submit">
+
+    </form>
+
+<br>
+<br>
+
+<a href="./home.html"><< Back </a>
+<script src="profile.js"></script>
+</body>
+
+</html>

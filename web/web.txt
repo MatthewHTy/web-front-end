@@ -1,0 +1,7 @@
+How does the internet work?
+
+The internet is a worldwide network of networks that use the intenet protocol suite, known as TCP/IP, the two most important protocols. It is basically the backbone of the Web. The technical infrastructure of of the internet makes the web possible. A large network of computers which communicate all together. Computers connected to the web are called clients and servers. A simplified program of how they interact is when a client sends a packet to the server. The server receives the packet and verifies that it's real. This enables users to connet rhough their computer network to chat, browse and share.
+
+What happens when you click on a link?
+
+When you click on a link, the browser and operating system figure out what you've clicked. The link you click is called a URL (Uniform Resource Locator), this indicates the webpage that you want to view/continue to. Once your browser recognizes the command of the click, it breaks out the name of the website and then uses the Domain Name System (DNS) to get an IP Address (internet Protocol) for the site. This then leads to the TCP (Transmission Control Protocol) connection to the website from the IP. It then asks to connect with HTTP (Hypertext Transfer Protocol) or HTTPS (Security), which then provies the next webpage in HTML (HyperText Markup Language) that your browser renders. Basically when you click a link, the browser requests data from the server and the server returns that data with an approval, or a denial depending if it works or not.
